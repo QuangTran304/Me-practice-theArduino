@@ -1,0 +1,3 @@
+This progam is quite interesting:
+(Using PULL-UP resistor)
+=> The light will be off when it starts but right after the first click on the button, the light will come to regular functions (button_push == on, button_realse == off).
