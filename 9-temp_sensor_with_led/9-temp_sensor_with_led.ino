@@ -2,7 +2,7 @@
     Author: Quang Tran
     Date: June 3rd, 2019
 
-    Note: This program ... Chip used: LM35 temperature sensor
+    Note: This program let us measure temperature (with LED visual effects) using LM35 temperature sensor.
     About the formula & the number:
         (The attached diagram will show this idea, resolution points, clearly)
         10 bits ADC == 5V  -->  5/1024 = 0.0048828125 V  for each bit/ point of resolution.
