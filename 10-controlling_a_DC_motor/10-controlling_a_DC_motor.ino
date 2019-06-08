@@ -1,6 +1,6 @@
 /*
     Author: Quang Tran
-    Date: June 9th, 2019
+    Date: June 8th, 2019
 
     Note: This is a very simple program that controls a dc motor's speed using a transistor (PWM on Base).
 */
