@@ -17,8 +17,8 @@ void setup() {
 void loop() {
   
   int value = analogRead(photoPin);
-  value = constrain(value, 750, 900);               // Constrain the values to range 750-900 only. Ignore anything else.
-  int brightness = map(value, 750, 900, 255, 0);    // Map 750-900 to 255-0 (inversely)
+  value = constrain(value, 200, 800);               // Constrain the values to range 200-800 only. Ignore anything else.
+  int brightness = map(value, 200, 800, 255, 0);    // Map 200-800 to 255-0 (inversely)
   analogWrite(ledPin, brightness);
 
     
