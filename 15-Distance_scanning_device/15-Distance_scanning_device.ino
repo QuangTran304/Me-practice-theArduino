@@ -52,8 +52,7 @@ void loop() {
 
 int readDistance(int pos) {
   servo1.write(pos);
-//  delay(600);
-  delay(50);
+  delay(600);                           // Wait for the servo to move
   int dist = analogRead(IR);
   dist = map(dist, 50, 500, 0, 255);    // 50 & 500 are just two distance values picked to measure. To find out, use Serial.print(distance).
   dist = constrain(dist, 0, 255);
